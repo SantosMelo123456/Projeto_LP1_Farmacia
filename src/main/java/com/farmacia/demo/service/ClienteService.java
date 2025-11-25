@@ -1,6 +1,6 @@
 package com.farmacia.demo.service;
 
-import model.Cliente;
+import com.farmacia.demo.model.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,9 @@
 // src/main/java/com/farmacia/controller/ProdutoController.java
 
-package com.farmacia.controller;
+package com.farmacia.demo.controller;
 
-import com.farmacia.model.Produto;
-import com.farmacia.service.ProdutoService;
+import com.farmacia.demo.model.Produto;
+import com.farmacia.demo.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

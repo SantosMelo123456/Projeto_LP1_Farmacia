@@ -1,7 +1,7 @@
 package com.farmacia.demo;
 
 import com.farmacia.demo.model.*;
-import controller.ClienteController;
+import com.farmacia.demo.controller.ClienteController;
 import java.util.Scanner;
 
 public class Main {
