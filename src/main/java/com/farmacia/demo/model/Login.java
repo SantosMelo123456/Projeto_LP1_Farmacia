@@ -1,16 +1,16 @@
 package com.farmacia.demo.model;
 
-public class Login { // <-- CORREÇÃO: ADICIONAMOS 'class'
+public class Login { 
 
     private String nome;
     private String email;
     private String senha;
 
-    // Construtor vazio (boas práticas)
+    
     public Login() {
     }
 
-    // --- Getters e Setters (com corpos de método) ---
+   
 
     public String getNome() {
         return nome;
