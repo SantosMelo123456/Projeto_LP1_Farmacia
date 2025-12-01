@@ -6,19 +6,19 @@ public class Carrinho {
     private int quantidade;
     private double precoUnitario;
 
-    // Construtor
+    
     public Carrinho(String descricao, int quantidade, double precoUnitario) {
         this.descricao = descricao;
         this.quantidade = quantidade;
         this.precoUnitario = precoUnitario;
     }
 
-    // Método para calcular o subtotal deste item
+    
     public double getSubtotal() {
         return this.quantidade * this.precoUnitario;
     }
 
-    // Getters e Setters
+   
     public String getDescricao() {
         return descricao;
     }
