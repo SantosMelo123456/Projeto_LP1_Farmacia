@@ -1,5 +1,3 @@
-// src/main/java/com/farmacia/controller/ProdutoController.java
-
 package com.farmacia.demo.controller;
 
 import com.farmacia.demo.model.Produto;
@@ -13,24 +11,20 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/produtos") // Mapeamento da URL base para este controller
+@RequestMapping("/produtos") 
 public class ProdutoController {
 
-    // Injeção de dependência para acessar o Service
+    
     @Autowired
     private ProdutoService produtoService;
 
-    /**
-     * Endpoint para listar todos os produtos.
-     * Mapeado para GET http://localhost:8080/produtos
-     * @return ResponseEntity com a lista de produtos e status HTTP 200 (OK).
-     */
-    @GetMapping // Mapeia requisições GET para a URL base /produtos
+   
+    @GetMapping 
     public ResponseEntity<List<Produto>> listarProdutos() {
-        // 1. Chama o Service
+        
         List<Produto> produtos = produtoService.listarTodos();
 
-        // 2. Retorna a lista com o status HTTP 200 (OK)
+        
         return ResponseEntity.ok(produtos);
     }
 }
