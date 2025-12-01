@@ -1,5 +1,3 @@
-// src/main/java/com/farmacia/model/Produto.java
-
 package com.farmacia.demo.model;
 
 import jakarta.persistence.Entity;
@@ -19,8 +17,6 @@ public class Produto {
     private double preco;
     private int estoque;
 
-    // Construtores, Getters e Setters
-    // ...
 
     public Produto() {
     }
