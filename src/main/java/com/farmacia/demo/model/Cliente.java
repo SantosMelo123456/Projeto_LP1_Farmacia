@@ -1,8 +1,5 @@
-// Localização: src/model/impl/ClienteImpl.java
 package com.farmacia.demo.model;
-/**
- * Implementação concreta da interface Cliente.
- */
+
 public class Cliente {
 
     private String nome;
@@ -12,13 +9,10 @@ public class Cliente {
     private String ender;
     private int tel;
 
-    // Construtor padrão (opcional, mas boa prática)
+    
     public Cliente() {
     }
 
-    // ==========================================================
-    // Implementação dos Getters
-    // ==========================================================
 
 
     public String getNome() {
